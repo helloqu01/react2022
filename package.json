@@ -1,4 +1,5 @@
 {
+  "homepage": "https://helloqu01.github.io/react2022/",
   "name": "react2022",
   "version": "0.1.0",
   "private": true,
@@ -16,9 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages",
-    "predeploy":"npm run build"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-  "homepage":"https://helloqu01.github.io/react2022/"
+  }
 }
